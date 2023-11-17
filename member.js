@@ -1,3 +1,9 @@
 function skillsMember() {
-    return "give me copilot";
+    return {
+        restrict: 'E',
+        templateUrl: 'views/skills-member.html',
+        scope: {
+          member: '='
+        }
+      };
 }
